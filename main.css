@@ -1,0 +1,55 @@
+*, *, ::before, *, ::after {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #868686;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 6px black;
+}
+.card h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.card .scope {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+.card .scope h2 {
+  font-size: 36px;
+}
+.card .scope p {
+  font-size: 24px;
+}
+.card .scope h3 {
+  font-size: 56px;
+}
+.card .btn {
+  display: block;
+  margin: 1.5rem auto 0.5rem auto;
+  background-color: #868686;
+  color: white;
+  border: none;
+  padding: 4px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .btn:hover {
+  scale: 1.05;
+}
+.card .btn:active {
+  scale: 0.95;
+}/*# sourceMappingURL=main.css.map */
