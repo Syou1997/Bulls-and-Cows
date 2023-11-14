@@ -7,7 +7,7 @@ const btnEl =document.querySelector("#btn");
 
     //0.設定答案
     const answer = Math.floor(Math.random() *100) + 1;
-    console.log(answer);
+    // console.log(answer);
 //事件監聽
 btnEl.addEventListener("click",function(){
     //1.抓input的值
@@ -30,7 +30,7 @@ btnEl.addEventListener("click",function(){
         scpoeEl.innerHTML = `<h3>${answer}</h3>`;
         // scpoeEl.innerText = answer;
         btnEl.innerHTML = '<button class="btn" type="button" onClick="window.location.reload();">再玩一次</button>';
-        // inputEl.value = answer;
+        inputEl.value = answer;
     }
     if(guessNum < answer){
         minNumEl.innerText = guessNum.toString();
