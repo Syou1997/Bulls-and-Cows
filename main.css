@@ -53,3 +53,10 @@ body {
 .card .btn:active {
   scale: 0.95;
 }/*# sourceMappingURL=main.css.map */
+
+input {
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+}

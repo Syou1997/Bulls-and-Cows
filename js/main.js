@@ -28,8 +28,9 @@ btnEl.addEventListener("click",function(){
     if(guessNum === answer){
         titleE1.innerText = "恭喜答對!!"
         scpoeEl.innerHTML = `<h3>${answer}</h3>`;
+        // scpoeEl.innerText = answer;
         btnEl.innerHTML = '<button class="btn" type="button" onClick="window.location.reload();">再玩一次</button>';
-        inputEl.value = answer;
+        // inputEl.value = answer;
     }
     if(guessNum < answer){
         minNumEl.innerText = guessNum.toString();
