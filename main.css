@@ -36,6 +36,10 @@ body {
 .card .scope h3 {
   font-size: 56px;
 }
+.card input::-webkit-inner-spin-button, .card input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
 .card .btn {
   display: block;
   margin: 1.5rem auto 0.5rem auto;
@@ -52,11 +56,21 @@ body {
 }
 .card .btn:active {
   scale: 0.95;
-}/*# sourceMappingURL=main.css.map */
-
-input {
-  &::-webkit-inner-spin-button,
-  &::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-  }
 }
+.card .refresh {
+  display: block;
+  margin: 1.5rem auto 0.5rem auto;
+  background-color: #868686;
+  color: white;
+  border: none;
+  padding: 4px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .refresh:hover {
+  scale: 1.05;
+}
+.card .refresh:active {
+  scale: 0.95;
+}/*# sourceMappingURL=main.css.map */
